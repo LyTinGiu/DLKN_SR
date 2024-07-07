@@ -60,9 +60,9 @@ datasets:
 network_g:
   type: Lyt3
   scale: 4
-  n_resblocks: 5  #5 for tiny   12 for light
+  n_resblocks: 5 
   n_resgroups: 1
-  n_feats: 48 #48 dor tiny   60 for light
+  n_feats: 48 
 
 path:
   pretrain_network_g: 
