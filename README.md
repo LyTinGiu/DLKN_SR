@@ -26,18 +26,18 @@
 ▶️ Train and Test
 ---
 
-The [BasicSR](https://github.com/XPixelGroup/BasicSR) framework is utilized to train our MAN, also testing. 
+The [BasicSR](https://github.com/XPixelGroup/BasicSR) framework is utilized to train our DLKN, also testing. 
 
 #### Training with the example option
 
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 \
-python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 train.py -opt options/trian_MAN.yml --launcher pytorch
+python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 train.py -opt options/trian_DLKN.yml --launcher pytorch
 ```
 #### Testing with the example option
 
 ```
-python test.py -opt options/test_MAN.yml
+python test.py -opt options/yiny.yml
 ```
 
 
