@@ -1,11 +1,6 @@
 # DLKN_SR
 <div align="center"> 
 
-[Yan Wang](https://scholar.google.com/citations?user=SXIehvoAAAAJ&hl=en)<sup>†</sup>, [Yusen Li](https://scholar.google.com/citations?user=4EJ9aekAAAAJ&hl=en&oi=ao)<sup>†</sup>, Gang Wang, Xiaoguang Liu 
-</div>
-
-<p align="center"> Nankai University </p>
-
 <p align="center">
 <a href="https://arxiv.org/abs/2209.14145" alt="arXiv">
     <img src="https://img.shields.io/badge/arXiv-2209.14145-b31b1b.svg?style=flat" /></a>
