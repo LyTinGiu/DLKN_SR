@@ -1,15 +1,5 @@
 # DLKN_SR
 
-<p align="center">
-
-1. [Requirements](#%EF%B8%8F-requirements)
-2. [Datasets](#-datasets)
-3. [Train and Test](#%EF%B8%8F-train-and-test)
-4. [Results and Models](#-results-and-models)
-5. [Acknowledgments](#-acknowledgments)
-6. [Citation](#-citation)
-
-</p>
  
 </details> 
 
@@ -72,21 +62,3 @@ Results of our MAN-tiny/light/base models. Set5 validation set is used below to 
 | MAN-tiny |      150K |     8.4G | 37.91/0.9603  |       34.23/0.9258      | 32.07/0.8930  | [x2](https://pan.baidu.com/s/1mYkGvAlz0bSZuCVubkpsmg?pwd=mans)/[x3](https://pan.baidu.com/s/1RP5gGu-QPXTkH1NPH7axag?pwd=mans)/[x4](https://pan.baidu.com/s/1u22su2bT4Pq_idVxAnqWdw?pwd=mans)    |
 | MAN-light|      840K |    47.1G | 38.18/0.9612  | 34.65/0.9292  | 32.50/0.8988  | [x2](https://pan.baidu.com/s/1AVuPa7bsbb3qMQqMSM-IJQ?pwd=mans)/[x3](https://pan.baidu.com/s/1TRL7-Y23JddVOpEhH0ObEQ?pwd=mans)/[x4](https://pan.baidu.com/s/1T2bPZcjFRxAgMxGWtPv-Lw?pwd=mans) |
 | MAN+     |     8712K |     495G | 38.44/0.9623  | 34.97/0.9315  | 32.87/0.9030  | [x2](https://pan.baidu.com/s/1pTb3Fob_7MOxMKIdopI0hQ?pwd=mans)/[x3](https://pan.baidu.com/s/1L3HEtcraU8Y9VY-HpCZdfg?pwd=mans)/[x4](https://pan.baidu.com/s/1FCNqht9zi9HecG3ExRdeWQ?pwd=mans) |
-
-💖 Acknowledgments
---- 
-
-We would thank [VAN](https://github.com/Visual-Attention-Network/VAN-Classification) and [BasicSR](https://github.com/XPixelGroup/BasicSR) for their enlightening work!
-
-🎓 Citation
----
-```
-@inproceedings{wang2024multi,
-  title={Multi-scale Attention Network for Single Image Super-Resolution},
-  author={Wang, Yan and Li, Yusen and Wang, Gang and Liu, Xiaoguang},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-  year={2024}
-}
-```
-
-or
