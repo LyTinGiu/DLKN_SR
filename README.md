@@ -4,11 +4,10 @@
 
 1. [Requirements](#%EF%B8%8F-requirements)
 2. [Datasets](#-datasets)
-3. [Implementary Details](#-implementary-details)
-4. [Train and Test](#%EF%B8%8F-train-and-test)
-5. [Results and Models](#-results-and-models)
-6. [Acknowledgments](#-acknowledgments)
-7. [Citation](#-citation)
+3. [Train and Test](#%EF%B8%8F-train-and-test)
+4. [Results and Models](#-results-and-models)
+5. [Acknowledgments](#-acknowledgments)
+6. [Citation](#-citation)
 
 </p>
  
@@ -32,22 +31,7 @@
 
 *Preparing*: Please refer to the [Dataset Preparation](https://github.com/XPixelGroup/BasicSR/blob/master/docs/DatasetPreparation.md) of BasicSR.
 
-🔎 Implementary Details
----
 
-*Network architecture*: Group number (n_resgroups): *1 for simplicity*, MAB number (n_resblocks): *5/24/36*, channel width (n_feats): *48/60/180* for *tiny/light/base MAN*.
-<p align="center">
-    <img src="images/MAN_arch.png"  width=100% height=100% > <br /></p>
-    <em> Overview of the proposed MAN constituted of three components: the shallow feature extraction module (SF), the deep feature extraction module (DF) based on
-    multiple multi-scale attention blocks (MAB), and the high-quality image reconstruction module. </em>
- 
- &nbsp;
-
-*Component details:* Three multi-scale decomposition modes are utilized in MLKA. The 7×7 depth-wise convolution is used in the GSAU.
-<p align="center">
-    <img src="images/MAN_details.png" width=60% height=60% > <br /></p>
-    <em> Details of Multi-scale Large Kernel Attention (MLKA), Gated Spatial Attention Unit (GSAU), and Large Kernel Attention Tail (LKAT). </em>
-&nbsp;
 
 ▶️ Train and Test
 ---
