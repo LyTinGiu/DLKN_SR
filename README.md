@@ -1,21 +1,5 @@
 # DLKN_SR
-<div align="center"> 
 
-<p align="center">
-<a href="https://arxiv.org/abs/2209.14145" alt="arXiv">
-    <img src="https://img.shields.io/badge/arXiv-2209.14145-b31b1b.svg?style=flat" /></a>
-<a href="https://github.com/icandle/MAN/blob/main/LICENSE" alt="license">
-    <img src="https://img.shields.io/badge/license-Apache--2.0-%23B7A800" /></a>
-<a href="https://github.com/icandle/MAN/blob/main/images/man_ntire24.pdf">
-    <img src="https://img.shields.io/badge/Docs-Slide&Poster-8A2BE2" /></a>
-</p>
-
-**Overview:** To unleash the potential of ConvNet in super-resolution, we propose a multi-scale attention network (MAN), by coupling a classical multi-scale mechanism with emerging large kernel attention. In particular, we proposed multi-scale large kernel attention (MLKA) and gated spatial attention unit (GSAU). Experimental results illustrate that our MAN can perform on par with SwinIR and achieve varied trade-offs between state-of-the-art performance and computations.
-
-
-
-This repository contains [PyTorch](https://pytorch.org/) implementation for ***MAN*** (CVPRW 2024).
-<details> <summary>Table of contents</summary>
 <p align="center">
 
 1. [Requirements](#%EF%B8%8F-requirements)
