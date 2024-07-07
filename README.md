@@ -37,7 +37,7 @@ python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 train.p
 #### Testing with the example option
 
 ```
-python test.py -opt options/yiny.yml
+python test.py -opt options/DLKN_tiny.yml
 ```
 
 
